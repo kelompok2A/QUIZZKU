@@ -1,0 +1,127 @@
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+header {
+  background-color: #068cd3;
+  padding: 15px 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover,
+header nav ul li.active a {
+  color: #e6e6e6;
+}
+
+header nav ul li.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #068cd3;
+  min-width: 200px;
+  z-index: 1;
+}
+
+header nav ul li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+header nav ul li.dropdown .dropdown-item {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+header nav ul li.dropdown .dropdown-item:hover {
+  background-color: #068cd3;
+}
+
+header nav ul li.dropdown .angle-down-topmenu {
+  color: #fff;
+}
+
+/* Tentang Kami */
+.about-us-area {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.about-us-area h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us-area p {
+  margin-bottom: 30px;
+}
+
+.team-area {
+  margin-top: 50px;
+}
+
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-member {
+  width: calc(33.33% - 20px);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.member-photo img {
+  display: center;
+  width: 60%;
+  height: 100;
+  border-radius: 50%;
+}
+
+.member-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #f7f7f7;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}

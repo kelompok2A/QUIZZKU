@@ -6,4 +6,4 @@ Oleh kelompok 6 :
 - Muhammad Nurman Ardiansyah (21050974035) sebagai Software Engineer
 - Muhammad Leon (21050974055) sebagai Software Engineer
 - Annisa Nur Fitriyani (21050974057) sebagai Project Management
-- Jawadhika Khoirun Nasa Annafi’ (21050974071) sebagai Data Analyst
+- Jawadhika Khoirun Nasa Annafi’ (21050974071) sebagai System Analyst
